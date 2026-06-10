@@ -107,10 +107,10 @@ jupyter notebook
 
 ## Expected Output
 
-The notebook should generate the final submission file in the repository root:
+The notebook should generate the any of the submission file in the repository root:
 
 ```text
-submission_seed_averaging.csv
+*.csv
 ```
 
 ## Notes
