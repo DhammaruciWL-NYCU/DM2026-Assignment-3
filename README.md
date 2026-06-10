@@ -1,11 +1,20 @@
 # Data Mining (DM2026) - Assignment 3
 
-**Author:** Dhammaruci Wiradhika Lungadhi  
+**By:** Dhammaruci Wiradhika Lungadhi  
 **Student ID:** 314540050
 
 ## Project Overview
 
 This repository contains my submission for Assignment 3 of the Data Mining course.
+
+## Original Kaggle Notebook
+
+This project was originally developed and executed in Kaggle Notebook.
+
+Kaggle Notebook:
+https://www.kaggle.com/code/dhammaruciwl/dm2026-assignment-3-notebook
+
+The GitHub repository is the official submission version and contains all source code required to reproduce the results. The Kaggle notebook is provided as a reference environment in case of local dependency or platform-specific issues.
 
 The notebook:
 - loads and preprocesses the dataset
