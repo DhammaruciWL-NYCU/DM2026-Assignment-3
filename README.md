@@ -14,7 +14,7 @@ This project was originally developed and executed in Kaggle Notebook.
 Kaggle Notebook:
 https://www.kaggle.com/code/dhammaruciwl/dm2026-assignment-3-notebook
 
-The GitHub repository is the official submission version and contains all source code required to reproduce the results. The Kaggle notebook is provided as a reference environment in case of local dependency or platform-specific issues.
+The GitHub repository is the official submission version and contains only necessary source code found in the report. The Kaggle notebook is provided as a reference environment in case of local dependency or platform-specific issues. The original source code that serves as the testing ground are available in another notebook which contains a more detailed results but harder to go through.
 
 The notebook:
 - loads and preprocesses the dataset
@@ -96,7 +96,9 @@ jupyter notebook
 ```
 
 4. Open `Data_Mining_Assignment_3_Notebook.ipynb`.
-5. Run all cells from top to bottom:
+   (note 1: The notebook still preserves the output produced on the initial runs, if you wish to re-test it yourself please proceed to the next step.)
+   (note 2: it might take too long to complete the whole run as inside the notebook contains multiple cells with different models training, otherwise only run cell 1,3 and your designated model cell.)
+6. Run all cells from top to bottom:
    - Kernel → Restart & Run All
 
 ## Expected Output
@@ -104,7 +106,7 @@ jupyter notebook
 The notebook should generate the final submission file in the repository root:
 
 ```text
-submission_seed_averaging_06.csv
+submission_seed_averaging.csv
 ```
 
 ## Notes
