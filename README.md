@@ -96,8 +96,10 @@ jupyter notebook
 ```
 
 4. Open `Data_Mining_Assignment_3_Notebook.ipynb`.
-   /n(note 1: The notebook still preserves the output produced on the initial runs, if you wish to re-test it yourself please proceed to the next step.)
-   /n(note 2: it might take too long to complete the whole run as inside the notebook contains multiple cells with different models training, otherwise only run cell 1,3 and your designated model cell.)
+
+   (note 1: The notebook still preserves the output produced on the initial runs, if you wish to re-test it yourself please proceed to the next step.)
+
+   (note 2: it might take too long to complete the whole run as inside the notebook contains multiple cells with different models training, otherwise only run cell 1,3 and your designated model cell.)
 6. Run all cells from top to bottom:
    - Kernel → Restart & Run All
 
