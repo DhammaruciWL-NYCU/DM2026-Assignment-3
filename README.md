@@ -1,7 +1,5 @@
 # Data Mining (DM2026) - Assignment 3
-
-**Institution:** National Yang Ming Chiao Tung University (NYCU), EECS IGP
-**Author:** Dhammaruci Wiradhika Lungadhi (314540050)
+**By:** Dhammaruci Wiradhika Lungadhi (314540050)
 
 ## Project Overview
 This repository contains the implementation for Assignment 3 of the Data Mining course. The primary objective is to process the provided dataset and train an ensemble of LightGBM classifiers. The methodology utilizes seed averaging to stabilize model predictions, ultimately generating a final output file (`submission_seed_averaging_06.csv`) for Kaggle evaluation.
