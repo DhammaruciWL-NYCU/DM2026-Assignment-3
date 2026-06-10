@@ -16,6 +16,8 @@ https://www.kaggle.com/code/dhammaruciwl/dm2026-assignment-3-notebook
 
 The GitHub repository is the official submission version and contains only necessary source code found in the report. The Kaggle notebook is provided as a reference environment in case of local dependency or platform-specific issues. The original source code that serves as the testing ground are available in another notebook which contains a more detailed results but harder to go through.
 
+The notebook in the kaggle can be used as it has been made public. To use it, go to the link, and click copy & edit. once inside the notebook, check for the datasets. If the dataset is missing, click on add input button on the right side under the input tab, select datasets, and insert "dhammaruci/data-mining-assignment-3" into the search bar and press the + icon. Once the dataset is loaded, you can run each cell.
+
 The notebook:
 - loads and preprocesses the dataset
 - trains machine learning models
