@@ -6,3 +6,5 @@ kagglehub
 kaggle
 jupyter
 ipykernel
+matplotlib.pyplot
+seaborn
