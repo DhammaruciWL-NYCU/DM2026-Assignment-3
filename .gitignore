@@ -1,0 +1,27 @@
+# Python environment and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Data and Kaggle artifacts (Do not commit large datasets)
+data/
+*.csv
+*.dat
+*.parquet
+*.json
+*.h5
+*.pkl
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
