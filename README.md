@@ -100,6 +100,8 @@ jupyter notebook
    (note 1: The notebook still preserves the output produced on the initial runs, if you wish to re-test it yourself please proceed to the next step.)
 
    (note 2: it might take too long to complete the whole run as inside the notebook contains multiple cells with different models training, otherwise only run cell 1,3 and your designated model cell.)
+
+   (note 3: If you wish to use custom directory for both training and test csv files, make sure to update both "base_path" for training dataset, and "test_path" for testing dataset according the directory of your files)
 6. Run all cells from top to bottom:
    - Kernel → Restart & Run All
 
