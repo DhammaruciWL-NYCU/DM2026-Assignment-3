@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+venv/
+env/
+.venv/
+
+# Kaggle / local data
+data/
+datasets/
+*.csv
+*.json
+*.pkl
+*.joblib
+
+# Notebook outputs
+submission_*.csv

@@ -1,59 +1,106 @@
 # Data Mining (DM2026) - Assignment 3
-**By:** Dhammaruci Wiradhika Lungadhi (314540050)
+
+**Author:** Dhammaruci Wiradhika Lungadhi  
+**Student ID:** 314540050
 
 ## Project Overview
-This repository contains the implementation for Assignment 3 of the Data Mining course. The primary objective is to process the provided dataset and train an ensemble of LightGBM classifiers. The methodology utilizes seed averaging to stabilize model predictions, ultimately generating a final output file (`submission_seed_averaging_06.csv`) for Kaggle evaluation.
 
-## Repository Structure
-    DM2026-Assignment-3/
-    ├── .gitignore
-    ├── README.md
-    ├── Data_Mining_Assignment_3_Notebook.ipynb
-    └── requirements.txt (Optional but recommended)
+This repository contains my submission for Assignment 3 of the Data Mining course.
 
-## Prerequisites and Dependencies
-Execution of this notebook requires Python 3.8 or higher. The following Python libraries are strictly required:
-* `pandas`
-* `numpy`
-* `scikit-learn`
-* `lightgbm`
-* `kagglehub`
-* `jupyter`
+The notebook:
+- loads and preprocesses the dataset
+- trains machine learning models
+- performs seed averaging
+- generates the final Kaggle submission file
 
-## Setup and Execution Instructions
+## Repository Contents
 
-### Step 1: Clone the Repository
-Clone this repository to your local machine:
-    git clone https://github.com/DhammaruciWL-NYCU/DM2026-Assignment-3.git
-    cd DM2026-Assignment-3
+```text
+DM2026-Assignment-3/
+├── .gitignore
+├── README.md
+├── requirements.txt
+└── Data_Mining_Assignment_3_Notebook.ipynb
+```
 
-### Step 2: Environment Configuration
-Isolate the dependencies by creating and activating a virtual environment.
+## Requirements
 
-**Linux/macOS:**
-    python -m venv venv
-    source venv/bin/activate
-    pip install pandas numpy scikit-learn lightgbm kagglehub jupyter
+- Python 3.8+
+- Jupyter Notebook or JupyterLab
+- Kaggle account
+- Kaggle API token (`kaggle.json`) if dataset access requires authentication
 
-**Windows:**
-    python -m venv venv
-    venv\Scripts\activate
-    pip install pandas numpy scikit-learn lightgbm kagglehub jupyter
+## Installation
 
-### Step 3: Kaggle API Authentication
-The notebook uses `kagglehub` to download the dataset dynamically. You must authenticate with the Kaggle API.
-1. Log into Kaggle.
-2. Go to your Account settings and select "Create New API Token". This downloads a `kaggle.json` file.
-3. Place this file in the appropriate directory for your OS:
-   * **Linux/macOS:** `~/.kaggle/kaggle.json`
-   * **Windows:** `C:\Users\<Your-Username>\.kaggle\kaggle.json`
-4. Secure the credentials (Linux/macOS only): `chmod 600 ~/.kaggle/kaggle.json`
+Create a virtual environment and install the dependencies.
 
-### Step 4: Run the Notebook
-Launch the Jupyter Notebook server:
-    jupyter notebook
+### macOS / Linux
 
-1. Open `Data_Mining_Assignment_3_Notebook.ipynb`.
-2. Ensure the kernel is set to the virtual environment you created.
-3. Select **"Restart & Run All"** from the Kernel menu to execute the pipeline from start to finish.
-4. Upon successful execution, the script will output the probability predictions into a file named `submission_seed_averaging_06.csv` in the root directory.
+```bash
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+### Windows
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+## Kaggle Setup
+
+If the notebook uses Kaggle API access:
+
+1. Log in to Kaggle.
+2. Go to your account settings.
+3. Create a new API token.
+4. Download `kaggle.json`.
+5. Place it in the correct location.
+
+### macOS / Linux
+
+```bash
+mkdir -p ~/.kaggle
+mv kaggle.json ~/.kaggle/
+chmod 600 ~/.kaggle/kaggle.json
+```
+
+### Windows
+
+Place `kaggle.json` in:
+
+```text
+C:\Users\<Your-Username>\.kaggle\kaggle.json
+```
+
+## How to Run
+
+1. Open a terminal in the repository folder.
+2. Activate the virtual environment.
+3. Start Jupyter:
+
+```bash
+jupyter notebook
+```
+
+4. Open `Data_Mining_Assignment_3_Notebook.ipynb`.
+5. Run all cells from top to bottom:
+   - Kernel → Restart & Run All
+
+## Expected Output
+
+The notebook should generate the final submission file in the repository root:
+
+```text
+submission_seed_averaging_06.csv
+```
+
+## Notes
+
+- Do not commit Kaggle credentials.
+- Do not commit large raw dataset files unless explicitly required.
+- If you add or remove imports in the notebook, update `requirements.txt`.
+- Before submission, restart the kernel and run all cells once to confirm the notebook works cleanly from start to finish.
